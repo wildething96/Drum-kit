@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(30, 30, 43);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 10rem 0;
+    padding: 2rem;
+    color:rgb(152, 184, 185);
+    border-top: 20px solid rgb(68, 38, 85);
+    border-bottom: 20px solid rgb(68, 38, 85);
+    border-radius: 40px;;
+    font-size: 4em;
+}
+
+.narrow {
+    padding: 0 10rem;
+}
+
+.drumkit-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:  auto;
+  flex-wrap: wrap;
+  padding: 0 15rem;
+  width: 1300px;
+}
+
+.drum {
+  color: rgb(143, 201, 219);
+  margin: 3%;
+  text-align: center;
+  width: 200px;
+  padding: 1rem 0;
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, rgb(82, 45, 92) 0%, #433e44 74%);
+  border-radius: 40px;
+  border: 10px solid rgb(89, 57, 107);
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 5em;
+}
+
+.drum:hover {
+  color: white;
+  background-color: rgb(72, 17, 104);
+}
+
+.drum:active {
+  color: white;
+  box-shadow: 0 0 40px 20px rgba(124, 19, 184, 0.589);
+}
+
+.drum.clicked {
+color: white;
+box-shadow: 0 0 40px 20px rgba(124, 19, 184, 0.589),
+    0 0 40px 20px rgba(150, 172, 30, 0.589),
+    0 0 40px 20px rgba(255, 255, 255, 0.589);
+}
+
+.drum.extended {
+  box-shadow: 0 0 40px 20px rgba(124, 19, 184, 0.589),
+    0 0 40px 20px rgba(255, 255, 255, 0.589);
+}
+
+.drum.extended2 {
+    box-shadow: 0 0 40px 20px rgba(124, 19, 184, 0.589);
+}
+
+
+h1.clicked {
+    box-shadow: inset 0 0 40px 20px rgba(124, 19, 184, 0.589), 0 0 40px 20px rgba(124, 19, 184, 0.589);
+}
+
+h1.click {
+    color: white;
+    font-size: 4.5em;
+}
